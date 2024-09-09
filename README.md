@@ -12,7 +12,7 @@ This is a one-click face swap tool that allows you to take a video and replace t
 1. Clone the repository:
     ```bash
     git clone https://github.com/cizodevahm/Deep-Face-Swap-Tool.git
-    cd roop
+    cd Deep-Face-Swap-Tool
     ```
 
 2. Install the required dependencies:
