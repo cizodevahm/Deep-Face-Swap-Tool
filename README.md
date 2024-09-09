@@ -34,20 +34,33 @@ python run.py -s source.jpg -t target.mp4 -o output.mp4
 
 ## Command-Line Options
 
--h, --help: Show help message and exit.
--s SOURCE_PATH, --source SOURCE_PATH: Select a source image.
--t TARGET_PATH, --target TARGET_PATH: Select a target image or video.
--o OUTPUT_PATH, --output OUTPUT_PATH: Select output file or directory.
---frame-processor FRAME_PROCESSOR [FRAME_PROCESSOR ...]: Frame processors (choices: face_swapper, face_enhancer, ...).
---keep-fps: Keep target fps.
---keep-frames: Keep temporary frames.
---skip-audio: Skip target audio.
---many-faces: Process every face.
---reference-face-position REFERENCE_FACE_POSITION: Position of the reference face.
---reference-frame-number REFERENCE_FRAME_NUMBER: Number of the reference frame.
---similar-face-distance SIMILAR_FACE_DISTANCE: Face distance used for recognition.
---temp-frame-format {jpg,png}: Image format used for frame extraction.
---temp-frame-quality [0-100]: Image quality used for frame extraction.
+```-h, --help```: Show help message and exit.
+
+```-s SOURCE_PATH, --source SOURCE_PATH```: Select a source image.
+
+```-t TARGET_PATH, --target TARGET_PATH```: Select a target image or video.
+
+```-o OUTPUT_PATH, --output OUTPUT_PATH```: Select output file or directory.
+
+```--frame-processor FRAME_PROCESSOR [FRAME_PROCESSOR ...]```: Frame processors (choices: face_swapper, face_enhancer, ...).
+
+```--keep-fps```: Keep target fps.
+
+```--keep-frames```: Keep temporary frames.
+
+```--skip-audio```: Skip target audio.
+
+```--many-faces```: Process every face.
+
+```--reference-face-position REFERENCE_FACE_POSITION```: Position of the reference face.
+
+```--reference-frame-number REFERENCE_FRAME_NUMBER```: Number of the reference frame.
+
+```--similar-face-distance SIMILAR_FACE_DISTANCE```: Face distance used for recognition.
+
+```--temp-frame-format {jpg,png}```: Image format used for frame extraction.
+
+```--temp-frame-quality [0-100]```: Image quality used for frame extraction.
 
 ## Contributing
 
